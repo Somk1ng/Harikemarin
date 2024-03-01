@@ -9,4 +9,4 @@ function harikemarin(timestamp, format) {
 	return dateformat(date, format)
 }
 
-module.exports = yesterdayone
+module.exports = harikemarin
