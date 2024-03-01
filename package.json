@@ -1,0 +1,46 @@
+{
+  "name": "harikemarin",
+  "version": "1.0.3",
+  "description": "Cari tahu hari kemarin",
+  "engines": {
+    "node": ">=9.0.0"
+  },
+  "xo": {
+    "semicolon": false
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/xo/cli.js index.js && ./node_modules/.bin/ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somk1ng/harikemarin.git"
+  },
+  "keywords": [
+    "date",
+    "datetime",
+    "nodejs",
+    "micropackage",
+    "yesterday",
+    "javascript"
+  ],
+  "author": "Somking <bahlultea@gmail.com> ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/somk1ng/harikemarin/issues"
+  },
+  "homepage": "https://github.com/somk1ng/harikemarin#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "esm": "^3.0.28",
+    "xo": "^0.20.3"
+  },
+  "dependencies": {
+    "dateformat": "^3.0.3"
+  }
+}
